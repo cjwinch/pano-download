@@ -27,7 +27,6 @@ def download_file(url, file_name):
 
 	f.close()
 
-# url = "http://panopto.imperial.ac.uk/Panopto/Podcast/Podcast.ashx?courseid=506badc8-555e-47dc-a216-fe5ec8a43ded&type=mp4"
 url = raw_input('Enter Panopto Podcast URL:')
 
 html = urllib2.urlopen(url)
